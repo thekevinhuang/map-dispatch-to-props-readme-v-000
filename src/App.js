@@ -6,7 +6,7 @@ import { addItem } from  './actions/items';
 class App extends Component {
 
   handleOnClick() {
-    this.props.dispatch(addItem());
+    this.props.addItem();
   }
 
   render() {
